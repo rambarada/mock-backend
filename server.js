@@ -41,7 +41,7 @@ app.use(express.json({ limit: "1mb" }));
 // 4. Dedicated Health Check route
 app.get("/api/health", (req, res) => {
   res.json({
-    message: `Welcome to ${process.env.APP_NAME}! , auto deploy is working !`,
+    message: `Welcome to ${process.env.APP_NAME}! , auto deploy is working now!`,
     status: "Running",
   });
 });
